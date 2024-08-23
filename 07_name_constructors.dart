@@ -1,17 +1,18 @@
 void main() {
+// Forma tradicional para llamar una clase y su constructor
+  final ironman = Hero(name: 'Tony Stark', power: 'Money', isAlive: true);
+  print(ironman);
+
+// Si obtenemos los datos desde una API con un tipado de datos JSON (MAP)
   final Map<String, dynamic> rawJson = {
-    'name': 'Tony Stark',
-    'power': 'Money',
+    'name': 'Logan',
+    'power': 'Garras',
     'isAlive': true
   };
 
-  final ironman = Hero.fromJson(rawJson);
+  final xmen = Hero.fromJson(rawJson);
 
-  print(ironman);
-
-  final spiderman = Hero(isAlive: false, power: 'Money', name: 'Tony Stark');
-
-  print(spiderman);
+  print(xmen);
 }
 
 class Hero {
@@ -23,12 +24,12 @@ class Hero {
 
   // Constructor Personalizado
   Hero.fromJson(Map<String, dynamic> json)
-      : name = json['name'] ?? 'No name found',
+      : name = json['name'] ?? 'No name found', // ?? Indica si el valor es nulo
         power = json['power'] ?? 'No power found',
         isAlive = json['isAlive'] ?? 'No isAlive found';
 
   @override
   String toString() {
-    return '$name, $power, isAlive: ${isAlive ? 'YES!' : 'Nope'}';
+    return '$name, $power, isAlive: ${isAlive ? 'YES!' : 'Nope'}'; // Uso de operadores ternarios Variable ? Valor si es verdadero : Valor si es falso
   }
 }
