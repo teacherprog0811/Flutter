@@ -19,7 +19,7 @@ void main() {
 }
 
 Future<String> httpGet(String url) {
-  return Future.delayed(const Duration(seconds: 1), () {
+  return Future.delayed(const Duration(seconds: 30), () {
     throw 'Error en la petición http';
 
 //     return 'Respuesta de la petición http';
