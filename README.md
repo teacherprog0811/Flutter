@@ -25,15 +25,19 @@ git config --global user.email "Tu correo"
 
 5. [Android Studio](https://developer.android.com/studio)
 
-6. Sólo Mac [xCode](https://apps.apple.com/ca/app/xcode/id497799835?mt=12)
+6. [JDK Java] (https://download.oracle.com/java/22/latest/jdk-22_windows-x64_bin.exe)
 
-7. [Flutter SDK](https://docs.flutter.dev/get-started/install)
+7. [NodeJS](https://nodejs.org/en/)
 
-8. [NodeJS](https://nodejs.org/en/)
+8. [Google Chrome](https://developer.chrome.com)
 
-9. [Docker Desktop](https://www.docker.com/)
+9. [Flutter SDK](https://docs.flutter.dev/get-started/install) 
 
-10. [Table Plus](https://tableplus.com/) <-- Visor de base de datos
+10. [Docker Desktop](https://www.docker.com/)
+
+11. Sólo Mac [xCode](https://apps.apple.com/ca/app/xcode/id497799835?mt=12)
+
+12. [Table Plus](https://tableplus.com/) <-- Visor de base de datos
 
 
 # Instalacion de extensiones en Visual Studio Code
