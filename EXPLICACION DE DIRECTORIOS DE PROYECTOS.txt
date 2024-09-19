@@ -1,0 +1,47 @@
+.dart tool 
+CLI, seguimiento de los paquetes instalados
+
+.idea
+Configuraciones de IntellijIDEA editor de codigo
+
+android
+Es el codigo de android, como JAVA, Kotlin, Etc. Instalacion de paquetes de camaras, GPS y sus archivos de configuracion.
+
+ios
+Es el codifo de ios, como Swift, paquetes etc.
+
+lib
+Carpeta principal donde se encuentra todo el codigo de nuestra app.
+
+linux
+Es el codigo de linux
+
+macos
+Es el codigo de macos
+
+test
+testing automatico de la aplicacion
+
+web
+aplicacion web basada en flutter
+
+windows
+aplicacion nativa en windows generando los .exe 
+
+.gitignore
+archivos que no se le van a dar seguimiento en gitignore
+
+.metadata
+seguimiento a propiedades de nuestro proyecto
+
+analysis_options.yaml
+Le dice a dart como analizar el codigo, definir reglas etc.
+
+hello_world_app.iml
+archivo usado por el editor de codigo intellijIDEA
+
+pubspec.lock
+Seguimiento a las versiones de paquetes instalada en el proyecto, este archivo se actualiza automatico al instalar paquetes.
+
+pubspec.yaml
+archivos de configuracion basados en identacion, define la version de la app, dependencias, sdk, etc.
